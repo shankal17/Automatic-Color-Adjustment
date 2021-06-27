@@ -136,6 +136,6 @@ def display_side_by_side(img1, img2, scale=100, title="Default Title"):
 
 if __name__ == '__main__':
 
-    img, processed = color_correct('path/to/image/to/be/processed', threshold=1.5)
+    img, processed = color_correct('path/to/original/image', threshold=1.5)
     display_side_by_side(img, processed, scale=20)
 
